@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <com.sundar.customisetextview.custome_classes.SundarTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fontName="@string/appfontBold"
+        android:text="@string/text_bold"
+        android:textAlignment="center"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center_horizontal" />
+
+    <com.sundar.customisetextview.custome_classes.SundarTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fontName="@string/appfontMedium"
+        android:text="@string/text_bold"
+        android:textAlignment="center"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center_horizontal" />
+
+    <com.sundar.customisetextview.custome_classes.SundarTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fontName="@string/appfontRegular"
+        android:text="@string/text_bold"
+        android:textAlignment="center"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center_horizontal" />
+
+
+</LinearLayout>
